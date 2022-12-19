@@ -1,10 +1,19 @@
 function tabuada(){
-    var numero = document.getElementById('multi')
+    var num = document.getElementById('txtn')
     var tab = document.getElementById('seltab')
-    if (numero.value.length == 0 ){
+    
+    if (num.value.length == 0 ){
         window.alert('Preencha o campo corretamente.')
     }else{
-        num = Number(numero.value)
-        res.innerHTML = `\u{1F3C1}`
-}
+        let n = Number(num.value)
+        let c = 0
+        tab.innerHTML = ''
+        while(c <= 10){
+            let item = document.createElement('option')
+            item.text = `${n} x ${c} = ${n*c}`
+            item.value = `tab ${c}`
+            tab.appendChild(item)
+            c++
+        }
+    }
 }
