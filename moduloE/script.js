@@ -4,6 +4,7 @@ function contar(){
     var passo = document.getElementById('step')
 
     if (inicio.value.length == 0 || final.value.length == 0 || passo.value.length == 0 ){
+        res.innerHTML = 'Impossível contar.'
         window.alert('Preencha todos os campos corretamente.')
     }else{
         res.innerHTML = "Contando..."
@@ -12,7 +13,7 @@ function contar(){
         var p = Number(passo.value)
         
         if (p <= 0){
-            window.alert("Impossível contar. Considerando PASSO 1")
+            window.alert("Impossível contar. Considerando PASSO 1!")
             p = 1
         }
         
