@@ -15,8 +15,11 @@ margin: auto;
 box-shadow: 5px 5px 10px black;
 }
 div{
-    font-size: large;
+    font-size: medium;
     text-align: center;
+}
+select{
+    width: 150px;
 }
 footer{
 color: white;
