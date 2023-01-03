@@ -12,10 +12,10 @@ function calculo(){
         let result = e / g
         
         if (result > 0.7 ) {
-            res.innerHTML = "Abasteça com etanol" 
+            res.innerHTML = "Abasteça com etanol." 
         }
         else {
-            res.innerHTML = "Abasteça com gasolina"
+            res.innerHTML = "Abasteça com gasolina."
         }
     }
 }      
