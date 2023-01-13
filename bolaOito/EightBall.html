@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bola Oito Mágica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Bola Oito Mágica</h1>  
+    </header>
+    <section>
+        <div>
+            <label for="Nome">Digite seu nome: </label>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <h6>Pense em uma pergunta e aperte o botão.</h6>
+            <input type="button" value="Resposta" onclick="resposta">
+        </div>
+        <div id="res">
+            <p>A resposta aparecerá aqui</p>
+            <br><br>
+        </div>
+    </section>
+    <footer>
+        <p> &copy; Desenvolvido para teste. </p>
+    </footer>
+    <script src="EightMagicBall.js"></script>
+</body>
+</html>
