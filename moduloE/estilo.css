@@ -1,5 +1,5 @@
 body{
-    background: #81d8d0;
+    background: #e0ffff;
     font: normal 15px Arial ;
 }
 header{
@@ -7,7 +7,7 @@ header{
     text-align: center;
 }
 section{
-    background: #e0ffff;
+    background: #81d8d0 ;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
